@@ -1,0 +1,22 @@
+.aboutUs {
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 8rem 0;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    background-color: #f58524;
+    padding: 4rem;
+    border-radius: 0rem;
+    z-index: 10;
+    font-family: 'Inter';
+    font-weight: 500;
+    /* border-radius: 2rem; */
+}
+.aboutUs h2 {
+    font-family: 'Zen Dots';
+}
