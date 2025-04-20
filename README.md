@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🖌️ CRAFTSVILLA
 
-## Getting Started
+_A place where creativity connects people._
 
-First, run the development server:
+![Homepage Screenshot](./public/assets/preview.png)
+
+---
+
+## 🚀 Table of Contents
+
+- [About](#about)  
+- [Demo](#demo)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+  - [Development](#development)  
+  - [Production Build](#production-build)  
+- [Project Structure](#project-structure)  
+- [Contributing](#contributing)  
+- [License](#license)  
+
+---
+
+## 🌟 About
+
+CRAFTSVILLA is a modern, React/next.js‑powered web application that offers hands‑on creative workshops designed to bring families, friends, and coworkers together. From watercolor painting to mosaic canvases, CRAFTSVILLA provides a welcoming space for makers of all ages to relax, explore their inner artist, and create lasting memories.
+
+---
+
+## 🎬 Demo
+
+See it live: [https://your-domain.vercel.app](https://your-domain.vercel.app)  
+_(Replace with your actual deployment URL)_
+
+---
+
+## ✨ Features
+
+- **Animated Background** with [Vanta.js Topology](https://github.com/tengbao/vanta)  
+- **Responsive Landing Page** showcasing core offerings  
+- **“About Us” Section** describing mission & vision  
+- **Workshop Options**:  
+  - Mosaic Canvas Aquarell  
+  - Flower Mosaic Explore  
+  - Landscape Design Workshop  
+- **Interactive Gallery**: dynamically renders image grid  
+- **Feedback Grid**: user testimonials with star ratings  
+- **Booking Page**: simple form to reserve your spot  
+- **Smooth CSS Transitions** and gradients  
+- **Accessibility‑minded**: semantic HTML & ARIA where needed  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 15.3 (App Router)  
+- **Language:** React 18 & modern JavaScript (ESNext)  
+- **Styling:** CSS Modules  
+- **Animations:** Vanta.js + CSS masks & transitions  
+- **Images:** `next/image` for optimized loading  
+- **Bundler:** Turbopack (built‑in to Next.js)  
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Node.js v18 or newer  
+- npm (or Yarn / pnpm)
+
+### Installation
 
 ```bash
-npm run dev
+# Clone this repository
+git clone https://github.com/your‑username/craftsvilla.git
+cd craftsvilla
+
+# Install dependencies
+npm install
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# yarn install
+# pnpm install
