@@ -75,8 +75,8 @@ _(Replace with your actual deployment URL)_
 
 ```bash
 # Clone this repository
-git clone https://github.com/your‑username/craftsvilla.git
-cd craftsvilla
+git clone https://github.com/your‑username/craftsvilla-react.git
+cd craftsvilla-react
 
 # Install dependencies
 npm install
