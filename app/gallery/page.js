@@ -11,6 +11,9 @@ export default function ImageGrid({ images = [
     '/gallery/img1.png',
     '/gallery/img2.png',
     '/gallery/img3.png',
+    '/gallery/img3.png',
+    '/gallery/img3.png',
+    '/gallery/img3.png',
   ]
    }) {
   return (

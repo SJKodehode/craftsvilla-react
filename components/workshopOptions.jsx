@@ -53,9 +53,10 @@ export default function Workshop() {
           <div className={styles.imageContainer}>
             <Image
               src={active.src}
-              width={347}
+              width={350}
               height={347}
               alt={'Image container carousell'}
+              objectFit={'cover'}
             />
             <div className={styles.textBlock}>
               <h2>{active.title}</h2>

@@ -3,10 +3,14 @@ import styles from "@/styles/feedback.module.css";
 import Image from "next/image";
 
 // a function that displays the names, text content and amount of stars from a user //
+
 export default function FeedbackGrid({ feedbacks = [
     {name: 'Thomas', text: 'Hello this is a general piece of feedback', amountOfStars: 5},
     {name: 'Wayne', text: 'Hello this is a general piece of feedback', amountOfStars: 4},
     {name: 'Jacob', text: 'Hello this is a general piece of feedback', amountOfStars: 5},
+    {name: 'Jacob', text: 'Hello this is a general piece of feedback', amountOfStars: 4},
+    {name: 'Jacob', text: 'Hello this is a general piece of feedback', amountOfStars: 3},
+    {name: 'Jacob', text: 'Hello this is a general piece of feedback', amountOfStars: 4},
     {name: 'Jacob', text: 'Hello this is a general piece of feedback', amountOfStars: 4},
     {name: 'Jacob', text: 'Hello this is a general piece of feedback', amountOfStars: 4},
     {name: 'Jacob', text: 'Hello this is a general piece of feedback', amountOfStars: 4},
@@ -34,7 +38,6 @@ export default function FeedbackGrid({ feedbacks = [
                         </div>
                     </div>
                 ))}
-            
             </div>    
         </div>
     );

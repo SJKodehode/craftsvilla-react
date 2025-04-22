@@ -12,9 +12,9 @@ import VantaTopology from "@/components/vantaTopology";
 export default function Home() {
   return (
     <div className={styles.page}>
-      {/* <div id={'element'}></div>
-      <VantaTopology /> */}
       <Header />
+        <div id={'element'}></div>
+        <VantaTopology />
     <main>
      
       <Landing />

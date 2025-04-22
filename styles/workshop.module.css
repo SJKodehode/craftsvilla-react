@@ -26,7 +26,7 @@
 .imageContainer {
     background-color: #E14E29;
     max-height: 347px;
-    width: 70vw;
+    width: 100vw;
     display: flex;
     
 }
@@ -37,4 +37,26 @@
     justify-content: center;
     align-items: center;
     font-size: 3rem;
+}
+
+@media (max-width: 800px) {
+    .section {
+        flex-direction: column;
+        height: 100vh;
+
+    }
+    .imageContainer {
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        
+        
+    }
+    .navItem {
+        font-size: 2rem;
+    }
+    .textBlock {
+        background-color: #E14E29;
+        padding: 8rem;
+    }
 }

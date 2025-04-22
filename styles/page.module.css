@@ -48,6 +48,7 @@
   margin-top: -4rem;
   min-height: 800px;
   z-index: 10;
+  flex-wrap: wrap;
   
 }
 .sectionLeft {
@@ -120,7 +121,7 @@
 .buttonDesign h2 {
   text-align: right;
   font-family: "Zen Dots";
-  font-size: clamp(2rem,7.5vw,8rem);
+  font-size: clamp(2.8rem,7.5vw,8rem);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -141,7 +142,7 @@
   color: #000;
   text-align: left;
   font-family: "Zen Dots";
-  font-size: clamp(2rem,7.5vw,8rem);
+  font-size: clamp(2.8rem,7.5vw,8rem);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -190,14 +191,21 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .page {
-    padding: 32px;
+    
     padding-bottom: 80px;
+  }
+  .page h1 {
+    font-size: 4rem;
   }
 
   .main {
     align-items: center;
+    max-height: 100vh;
+    flex-flow: column-reverse;
+    gap: 2rem;
+    padding-bottom: 8rem;
   }
 
   .main ol {
@@ -207,7 +215,19 @@
   .ctas {
     flex-direction: column;
   }
-
+.sectionOrange {
+  width: 80vw;
+  height: 7.6rem;
+  
+  
+}
+.sectionExplore {
+  margin-top: 4rem;
+  
+}
+.sectionOrange p {
+  margin-bottom: 1.5rem;
+}
   .ctas a {
     font-size: 14px;
     height: 40px;
